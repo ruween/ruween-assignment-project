@@ -1,0 +1,10 @@
+version: "3"
+services:
+  timesync_fe:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - APACHE_LOG_DIR=/var/log/apache2/
+    ports:
+      - 8080:80
