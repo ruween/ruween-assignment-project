@@ -1,0 +1,2 @@
+* * * * * ./root/script.sh >> /var/log/script.log 2>&1
+* * * * * sleep 30; ./root/script.sh >> /var/log/cron.log 2>&1
